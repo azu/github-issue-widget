@@ -8,7 +8,9 @@
 
 ## Usage
 
-- [ ] Write usage instructions
+### Parameters
+
+- https://developer.github.com/v3/issues/#list-issues-for-a-repository
 
 ## Develop
 
