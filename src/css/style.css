@@ -1,0 +1,19 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+ul {
+    list-style: none;
+    line-height: 2;
+}
+
+li {
+    /*https://github.com/github/octicons/blob/master/svg/issue-opened.svg*/
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAcCAYAAAAAwr0iAAABfElEQVRIic1X242EMAwc2zRADdRBGTRBDfmnEnqgj22CCvhC2vu4GDk+dglcVuxIEUg4yXj8SADeo4rjyKY4/KIVgAZAa0b9KSLbQiLSMfNIRLOIPO1g5oWIHgBCJFeUSEtED7fh6of7NpQiEayXdqO9wcyLvkdFVI1TJCoAYObBeLTou4hMAHrE+MfQDFYlY7+cJaFGvfeamUf8jW+yqIh0miNKgojmswo0Np4i8oweWwSTfDPSKqhVDaPE6Bx8DRGZ7GT8ZnbisYbHyFwbGyUxOyfaHBKNnRTjbSfpM5hk8wqoTXtFheC896xzCGx2quYbuxRuwmPH5CyB7sChFK6U9iTLJaBoXB5oMu8TcGU37BgnBJh5PSBQ2+aENKGvE3BVsBYjYA+agxD0MVxTrJQyIchIwlxcS0Icl6GiZeYhhinsfL9WhshsRDYHItFijSirFeN1Gf67FW8q3HUYfcVxfOuFxOOWK1miBG6+lH7FtfzWHxO/6Ed/zX4A3XEYsUuQztIAAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 32px;
+}

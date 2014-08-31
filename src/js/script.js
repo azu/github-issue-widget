@@ -2,7 +2,7 @@
 var params = function () {
     var vars = [], hash;
     var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-    for (var i = 0; i < hashes.length; i++) {
+    for (var i = 0, length = hashes.length; i < length; i++) {
         hash = hashes[i].split('=');
         vars.push(hash[0]);
         // support pram without value
@@ -42,10 +42,10 @@ function shuffle(array) {
 }
 function APICallback(results) {
     var content = document.getElementById("js-main-content");
-    console.log(params["random"]);
     var resultDataList = params["random"] ? shuffle(results.data) : results.data;
     var ul = document.createElement("ul");
-    var limit = Math.min(parseInt(params["limit"], 10), resultDataList.length);
+    var paramLimit = parseInt(params["limit"], 10);
+    var limit = Math.min(paramLimit, resultDataList.length);
     for (var i = 0; i < limit; i++) {
         var issue = resultDataList[i];
         var li = document.createElement("li");
