@@ -8,7 +8,7 @@ This components are hosted via GitHub Pages, meaning all you need to do is inclu
 You can configure it with various options. Here's the include:
 
 ```html
-<iframe src="https://azu.github.io/github-issue-widget/?user=efcl&repo=efcl.github.io&limit=3&random"
+<iframe src="https://azu.github.io/github-issue-widget/?owner=efcl&repo=efcl.github.io&limit=3&random"
         allowtransparency="true" frameborder="0" scrolling="0" width="100%"></iframe>
 ```
 
@@ -16,7 +16,7 @@ You can configure it with various options. Here's the include:
 
 Name | Type | Description
 -----|------|--------------
-`user`|`string`| **Required**. Repository's user name. Example:  **azu**
+`owner`|`string`| **Required**. Repository's owner name. Example:  **azu**
 `repo`|`string`| **Required**. Repository name. Example: **github-issue-widget**
 `limit`|`integer`| Only issues limited number are showed. Default : 1
 `random`|`bool`| If the param is set, randomize response issue list. Default : false
@@ -37,14 +37,14 @@ via https://developer.github.com/v3/issues/#list-issues-for-a-repository
 Show latest issue at random.
 
 ```html
-<iframe src="https://azu.github.io/github-issue-widget/?user=efcl&repo=efcl.github.io&random"
+<iframe src="https://azu.github.io/github-issue-widget/?owner=efcl&repo=efcl.github.io&random"
         allowtransparency="true" frameborder="0" scrolling="0" width="100%"></iframe>
 ```
 
 Show closed issues.
 
 ```html
-<iframe src="https://azu.github.io/github-issue-widget/?user=efcl&repo=efcl.github.io&limit=10&state=closed"
+<iframe src="https://azu.github.io/github-issue-widget/?owner=efcl&repo=efcl.github.io&limit=10&state=closed"
         allowtransparency="true" frameborder="0" scrolling="0" width="100%"></iframe>
 ```
 

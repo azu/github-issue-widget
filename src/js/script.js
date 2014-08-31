@@ -73,7 +73,7 @@ function APICallback(results) {
             return key + "=" + params[key];
         });
     //  /repos/:owner/:repo/issues
-    var APIEndPoint = 'https://api.github.com/repos/' + params.user + '/' + params.repo + '/issues'
+    var APIEndPoint = 'https://api.github.com/repos/' + params.owner + '/' + params.repo + '/issues'
         + '?' + APIQuery.join("&");
     loadJSONP(APIEndPoint, "APICallback");
 })();
