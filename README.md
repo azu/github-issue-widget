@@ -1,12 +1,16 @@
 # github-issue-widget
 
-- [ ] Write a project description
-
-## Installation
-
-- [ ] Describe the installation process
+Showcase your Github(repository)'s issue list via iframe.
 
 ## Usage
+
+This components are hosted via GitHub Pages, meaning all you need to do is include an iframe and you're set.
+You can configure it with various options. Here's the include:
+
+```html
+<iframe src="https://azu.github.io/github-issue-widget/?user=efcl&repo=efcl.github.io&limit=3&random"
+        allowtransparency="true" frameborder="0" scrolling="0" width="100%"></iframe>
+```
 
 ### Parameters
 
