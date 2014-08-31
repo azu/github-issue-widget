@@ -1,0 +1,29 @@
+{
+  "name": "github-issue-widget",
+  "description": "A widget for github issue",
+  "version": "0.0.1",
+  "homepage": "https://github.com/azu/github-issue-widget/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/github-issue-widget.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "test": "mocha test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/github-issue-widget/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-htmlmin": "^0.2.0",
+    "gulp-inline-source": "0.0.2",
+    "inline-source": "^1.0.0"
+  }
+}
