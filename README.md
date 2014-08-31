@@ -2,6 +2,8 @@
 
 Showcase your Github(repository)'s issue list via iframe.
 
+DEMO: https://azu.github.io/github-issue-widget/test/test-page.html
+
 ## Usage
 
 This components are hosted via GitHub Pages, meaning all you need to do is include an iframe and you're set.
@@ -47,6 +49,10 @@ Show closed issues.
 <iframe src="https://azu.github.io/github-issue-widget/?owner=efcl&repo=efcl.github.io&limit=10&state=closed"
         allowtransparency="true" frameborder="0" scrolling="0" width="100%"></iframe>
 ```
+
+You can direct access to embed html page for testing.
+
+- https://azu.github.io/github-issue-widget/?owner=isaacs&repo=github&limit=10&state=closed
 
 
 ## Develop
