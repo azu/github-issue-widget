@@ -1,7 +1,7 @@
 {
   "name": "github-issue-widget",
   "description": "A widget for github issue",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/azu/github-issue-widget/",
   "repository": {
     "type": "git",
